@@ -25,3 +25,15 @@ variable "tags" {
     Owner       = "Anusha"
   }
 }
+
+variable "instance_class" { 
+  default = "db.t3.micro" 
+}
+
+variable "db_username" { 
+  default = "xxx" 
+}
+
+variable "db_password" { 
+  default = "xxx" 
+}
